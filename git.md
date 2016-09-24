@@ -81,9 +81,6 @@ at the same time.
   commit. `git commit -am "Delete stuff"`  
 - `git merge <brach_name>`  to merge the `<branch_name>` branch into `master` branch.  
 - git branch -d <branch name> to delete a branch.  
-
-
-  
 - Pull Requests. If you're hosting your repo on GitHub, you can do
 something called a pull request.  A pull request allows the boss of
 the project to look through your changes and make comments before

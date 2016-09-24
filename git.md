@@ -72,9 +72,16 @@ In the simplest terms, git pull does a git fetch followed by a git merge
   `<branch_name>`. When developers are working on a feature or bug
   they'll often create a copy (aka. branch) of their code they can
   make separate commits to. Then when they're done they can merge this
-  branch back
-  into their main master branch.  
-- git checkout <branch_name> to switch to branch <branch_name>
+  branch back into their main master branch.  
+- `git checkout <branch_name>` to switch to branch <branch_name>. You
+can use: `git checkout -b new_branch` to checkout and create a branch
+at the same time.  
+- `git rm <filename>` to delete files from the working tree. Use the
+  `-a` option on `git commit` to remove deleted files with the
+  commit. `git commit -am "Delete stuff"`  
+
+
+
   
   
 

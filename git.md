@@ -79,6 +79,19 @@ at the same time.
 - `git rm <filename>` to delete files from the working tree. Use the
   `-a` option on `git commit` to remove deleted files with the
   commit. `git commit -am "Delete stuff"`  
+- `git merge <brach_name>`  to merge the `<branch_name>` branch into `master` branch.  
+- git branch -d <branch name> to delete a branch.  
+
+
+  
+- Pull Requests. If you're hosting your repo on GitHub, you can do
+something called a pull request.  A pull request allows the boss of
+the project to look through your changes and make comments before
+deciding to merge in the change. It's a really great feature that is
+used all the time for remote workers and open-source projects.  Check
+out the
+[pull request help page](https://help.github.com/articles/using-pull-requests)
+for more information.
 
 
 
